@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+div{
+background-color:  #FB9374;
+color: white;
+width: 100%;
+height: 100%;
+}
+div h1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 50px;
+    font: 300 ;
+    font-size: 70;
+    
+
+}
+.bouton{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    text-decoration: none;
+    padding: 16px 110px;
+    width: fit-content;
+    font-weight: 500;
+    transition: all .3s ease-in-out;
+    background-color: white;
+    text-decoration: none;
+    color:#FB9374; 
+    margin: 15px;      
+}
+.app{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.applications{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    gap: 16px;
+    height: 100%;
+    width: 100%;
+    
+}  
+
+      
+     
+.boisson chaude{
+    display: flex;
+    flex-direction: row;
+}
+.app.photo{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+     
