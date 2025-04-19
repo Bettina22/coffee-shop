@@ -1,6 +1,168 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('C:\Users\B-KAPS\Desktop\WEB\14 avril 2025\coffee shop\assets\background-homepage-1.png');
+body{
+    display: flex;
+    flex-direction: column;  
+    align-content: center;      
+}
+/*nav*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    background-color: #FB9374;
+    width: 100%;
+    height: 100%;
+    padding: 10px 10px;
+    margin: 0;   
+}
+.lien{
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    color: black;
+    font-size: 1.4rem;
+}
+#logo{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+#logo img{
+    width: 80px;
+    height: 80px;
+    color: white;
+}
+#logo-small{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    padding: 10px;
+}
+#logo-small img{
+    width: 50px;
+    height: 50px;
+    color: #403F3F;
+}
+/*main*/
+main{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+/*homepage-1*/
+.homepage-1{
+    display: flex;
+    flex-direction: column;
+    background-image: url("assets/background-homepage-1.png");
+    align-content: center;    
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+}
+.homepage-1 div{
+    display: flex;
+    gap: 20px;
+}
+   
+  
+    
+    
+    
+    
+         
+
+/*
+.bouton-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 30px;
+    
+    gap: 16px;
+    color: white;
+
+    
+}
+*/
+.bouton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    text-decoration: none;
+    padding: 8px 16px;
+    /* width: fit-content; */
+    height: fit-content;
+    /*font-weight: 500;*/
+    transition: all .3s ease-in-out;
+ }
+ .bouton.primaire{
+    background: #FB9374;
+    color: white;
+ }
+ .bouton.secondaire{
+    background: white;
+    color: #FB9374;
+    border: 2px solid;
+ }
+
+
+
+
+
+
+
+
+
+/*homepage-2*/
+    
+.homepage-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around ;
+    align-items: center;
+    width: 100%;
+    height: 25%;
+    padding: 40px;
+    
+}
+.carte{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    border-radius: 16px;
+    padding: 16px;
+    background-color: #fff4ef;
+}
+
+
+.carte img{
+    width: 80%;
+    height: 80px;
+    object-fit: cover;
+}
+.prix{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    color: black;
+}
+
+/*
 div{
-background-color:  #FB9374;
+
 color: white;
 width: 100%;
 height: 100%;
@@ -13,24 +175,21 @@ div h1{
     padding: 50px;
     font: 300 ;
     font-size: 70;
-    
+   
 
 }
-.bouton{
-    
+*/
+
+
+ /*homepage-3*/ 
+.homepage-3{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 8px;
-    text-decoration: none;
-    padding: 16px 110px;
-    width: fit-content;
-    font-weight: 500;
-    transition: all .3s ease-in-out;
-    background-color: white;
-    text-decoration: none;
-    color:#FB9374; 
-    margin: 15px;      
+    flex-direction: column;
+    background-color: #FB9374;
+    height: 25%;
+    width: 100%;
+    margin: 0;
+    color: white;
 }
 .app{
     display: flex;
@@ -45,19 +204,66 @@ div h1{
     justify-items: center;
     gap: 16px;
     height: 100%;
-    width: 100%;
-    
-}  
-
-      
-     
-.boisson chaude{
+    width: 100%;    
+}    
+  
+.app photo{
     display: flex;
-    flex-direction: row;
+    height: 400px;
+    width: 400px;
+}   
+
+.app .bouton{
+    background-color: white;
+    color: #FB9374;
 }
-.app.photo{
+
+
+img{
+    height: 300px;
+    width: 300px;    
+}
+section{
     display: flex;
     align-items: center;
-    justify-items: center;
+    
 }
-     
+    
+
+    
+
+/*footer*/
+
+.instagram{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    font-size: 1.4rem;
+}
+#insta{
+    color: black;
+}
+#coffee{
+    color: #FB9374;
+}
+.infos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #fff4ef;
+    color: black;
+}
+.shop{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    color: black;
+    width: 50%;
+}
+.infos .bouton{
+    padding: 10px;
+}
+
+
+
