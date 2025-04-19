@@ -73,6 +73,12 @@ main{
     display: flex;
     gap: 20px;
 }
+h1{
+    display: flex;
+    align-self: center;
+    color: #FB9374;
+}
+
    
   
     
@@ -264,6 +270,31 @@ section{
 .infos .bouton{
     padding: 10px;
 }
+.shop .bouton{
+    padding: 5px;
+}
+.infos .container{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.apropos{
+    display: flex;
+    flex-direction: row;
+}
+.apropos p{
+    color: #FB9374;
+}
+article{
+    display: flex;
+    flex-direction: row;
+    
 
 
+
+    
+}
+.apropos li{
+    list-style-type: circle;
+}
 
